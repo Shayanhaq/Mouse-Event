@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ *{
+  background-color: rgb(87, 78, 65);
+        }
+img{
+  width: 80;
+  height: 400px;
+  border: 1px solid black;
+  
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-decoration-line: overline;
+    
+}
+
+    </style>
+</head>
+<body>
+    <center>
+        <H1>Dark Mode</H1>
+    <img id="myImage" src="Dark Moon 4K Wallpaper Gallery.jpg" />
+</center>
+
+    <script>
+        const image = document.getElementById("myImage");
+
+image.addEventListener("mouseover", () => {
+  image.src = "Lamborghini Huracan Lp Black Dark 4k Wallpaper HD.jpg";
+});
+
+image.addEventListener("mouseout", () => {
+  image.src = "Dark Moon 4K Wallpaper Gallery.jpg";
+});
+
+
+    </script>
+</body>
+</html>
